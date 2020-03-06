@@ -29,7 +29,7 @@ import re
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # The ID and range of a sample spreadsheet.
-SPREADSHEET_ID = '13Rr8l7fmdPU2T76WGBXvHfXpjSH29zzpSp-9VsqlqWw'
+SPREADSHEET_ID = '17A_U8v6_rBv9a2ZGaV3P913XCINzKRm5XE2wx40sRqU'
 PATTERN = r'(// \+\+GENERATED CARDS\+\+).+(// \-\-GENERATED CARDS\-\-)'
 
 CARDS_MAP = {

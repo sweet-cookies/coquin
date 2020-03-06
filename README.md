@@ -19,7 +19,7 @@ sudo docker push coquin/coquin
 
 # Develop
 
-  * Source of all cards and decks https://docs.google.com/spreadsheets/d/13Rr8l7fmdPU2T76WGBXvHfXpjSH29zzpSp-9VsqlqWw/edit?usp=sharing
+  * Source of all cards and decks https://docs.google.com/spreadsheets/d/17A_U8v6_rBv9a2ZGaV3P913XCINzKRm5XE2wx40sRqU/edit?usp=sharing
 
 ```
 sudo docker build  -f Dockerfile.dev -t coquin .
