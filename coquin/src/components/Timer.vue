@@ -90,6 +90,10 @@ export default {
             this.timerAudio.play();
         },
         timerStart: function() {
+            window.console.log("--timerStart")
+            if (typeof this.timerInterval != "object"){
+                    this.timerStop()
+            }
             this.timerProgressTick = 100 / (this.timerLabels[this.timerValue] * 60)
             this.timerProgress = 0
             this.timerInterval = setInterval(() => {

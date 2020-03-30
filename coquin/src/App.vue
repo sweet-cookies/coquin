@@ -3,9 +3,12 @@
 .timer-slider>>>.v-slider {
     height: 350px;
 }
-
 </style>
-
+<!--
+.theme--dark.v-application {
+    background: #303030;
+}
+-->
 <template>
 
 <v-app id="inspire">
@@ -45,7 +48,7 @@
             </v-list-item>
             <v-list-item link @click="flushCache()">
                 <v-list-item-action>
-                    <v-icon color="grey">mdi-eraser</v-icon>
+                    <v-icon color="grey">mdi-eraser-variant</v-icon>
                 </v-list-item-action>
                 <v-list-item-content>
                     <v-list-item-title><font color="grey">Remise à zéro</font></v-list-item-title>

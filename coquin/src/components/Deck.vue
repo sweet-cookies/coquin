@@ -75,7 +75,7 @@
             </v-carousel>
             <v-container>
                 <v-responsive min-height="130px">
-                    <v-system-bar color="#424242"></v-system-bar>
+                    <v-system-bar color="#1E1E1E"></v-system-bar>
                     <v-row v-show="decks[deck].cards.length > 0 && persistent.currentPlayer" align="center" justify="start" no-gutters>
                         <v-col justify-self="center">
                             <div class="ma-0">

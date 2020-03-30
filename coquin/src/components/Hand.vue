@@ -48,7 +48,7 @@
             </v-carousel>
 
             <v-container>
-                <v-system-bar color="#424242"></v-system-bar>
+                <v-system-bar color="#1E1E1E"></v-system-bar>
 
                 <!-- regular hand display -->
                 <v-row v-if="popupModePlayerName == null && persistent.players[persistent.currentPlayer]['hand'].length > 0 && getCardType() != 'hand'" align="center" justify="start" no-gutters>
