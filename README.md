@@ -46,5 +46,9 @@ vue add @vue/devtools
 vue add vue-router
 vue ui -H 0.0.0.0
 # npm install --no-progress
+
+# To upgrade libs
+vue upgrade
+# or npm update
 ```
 
