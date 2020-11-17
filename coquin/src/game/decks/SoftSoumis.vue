@@ -23,7 +23,7 @@ export default {
                 'drawNumber': null,
                 'cards': [], // Deck cards
                 // ++GENERATED CARDS++
-deckCards:{"sm1": 1, "sm10": 1, "sm11": 1, "sm12": 3, "sm13": 1, "sm14": 1, "sm15": 1, "sm16": 1, "sm17": 1, "sm18": 1, "sm19": 1, "sm2": 1, "sm21": 1, "sm25": 1, "sm26": 1, "sm27": 1, "sm3": 3, "sm32": 3, "sm37": 1, "sm4": 1, "sm41": 1, "sm42": 1, "sm43": 2, "sm44": 1, "sm5": 1, "sm51": 2, "sm52": 1, "sm6": 1, "sm61": 2, "sm62": 2, "sm7": 1, "sm8": 1, "sm9": 2}
+deckCards:{"sm1": 1, "sm10": 1, "sm11": 1, "sm12": 3, "sm13": 1, "sm14": 1, "sm15": 1, "sm16": 1, "sm17": 1, "sm18": 1, "sm19": 1, "sm2": 1, "sm21": 1, "sm25": 1, "sm26": 1, "sm27": 1, "sm3": 3, "sm32": 3, "sm37": 1, "sm4": 1, "sm41": 1, "sm42": 1, "sm43": 2, "sm44": 1, "sm5": 1, "sm51": 2, "sm52": 1, "sm6": 1, "sm61": 2, "sm62": 1, "sm63": 2, "sm68": 1, "sm7": 1, "sm8": 1, "sm9": 2}
 // --GENERATED CARDS--
 
             },
