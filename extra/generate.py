@@ -30,6 +30,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # The ID and range of a sample spreadsheet.
 SPREADSHEET_ID = '17A_U8v6_rBv9a2ZGaV3P913XCINzKRm5XE2wx40sRqU'
+#SPREADSHEET_ID = '1Y70ljPoJSZnwTvT1Xmb7zGAnk7LXGRTGTtVZcwVgSgo'
 PATTERN = r'(// \+\+GENERATED CARDS\+\+).+(// \-\-GENERATED CARDS\-\-)'
 
 CARDS_MAP = {
