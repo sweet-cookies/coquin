@@ -62,11 +62,11 @@ var SpecialCards = {
 }
 
 export default {
-    numberOfDuoPositions: 88, // from 0 to 87
-    numberOfDuoFFPositions: 14,
+    numberOfDuoPositions: 90, // from 0 to 89
+    numberOfDuoFFPositions: 15,
     numberOfQuadPositions: 4,
-    numberOfTrioFFHPositions: 33,
-    numberOfTrioHHFPositions: 18,
+    numberOfTrioFFHPositions: 34,
+    numberOfTrioHHFPositions: 20,
     _initPosCards: function() {
         window.console.log("--_initPosCards");
         for (const x of Array(this.numberOfDuoPositions).keys()) {
