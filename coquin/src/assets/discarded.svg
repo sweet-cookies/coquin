@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="175"
+   height="175"
+   viewBox="0 0 175 175"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg14"
+   sodipodi:docname="discarded.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/home/gael/Desktop/git/coquin-the-card-game/logo/logo.png"
+   inkscape:export-xdpi="37.846642"
+   inkscape:export-ydpi="37.846642">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2556"
+     inkscape:window-height="1396"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="2.609375"
+     inkscape:cx="47.434297"
+     inkscape:cy="72.91616"
+     inkscape:window-x="1920"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g12"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="g12"
+     transform="translate(0,-53.289734)">
+    <g
+       aria-label="C"
+       transform="scale(1.0244623,0.9761218)"
+       style="font-style:normal;font-weight:normal;font-size:183.02612305px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.57565308px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text821">
+      <path
+         d="m 135.68963,201.49248 q -9.47304,4.91526 -19.75038,7.41757 -10.27735,2.50231 -21.448376,2.50231 -33.334348,0 -52.816621,-18.58859 -19.482272,-18.67796 -19.482272,-50.58242 0,-31.99382 19.482272,-50.582413 19.482273,-18.677959 52.816621,-18.677959 11.171026,0 21.448376,2.50231 10.27734,2.502311 19.75038,7.417563 v 27.614779 q -9.5624,-6.52388 -18.8567,-9.5624 -9.2943,-3.038517 -19.571641,-3.038517 -18.409854,0 -28.955305,11.796607 -10.54545,11.7966 -10.54545,32.53003 0,20.64406 10.54545,32.44067 10.545451,11.7966 28.955305,11.7966 10.277341,0 19.571641,-3.03852 9.2943,-3.03852 18.8567,-9.5624 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ad7aba;fill-opacity:1;stroke-width:4.57565308px"
+         id="path819" />
+    </g>
+    <g
+       aria-label="C"
+       transform="scale(1.0582441,0.94496156)"
+       style="font-style:normal;font-weight:normal;font-size:137.11766052px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.4279418px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text821-3">
+      <path
+         d="m 131.36837,192.05577 q -7.09691,3.68236 -14.79639,5.55702 -7.69948,1.87465 -16.06847,1.87465 -24.973093,0 -39.568625,-13.92601 -14.595533,-13.99296 -14.595533,-37.89482 0,-23.96881 14.595533,-37.89482 14.595532,-13.992966 39.568625,-13.992966 8.36899,0 16.06847,1.874655 7.69948,1.874656 14.79639,5.557011 v 20.68817 q -7.16386,-4.8875 -14.12687,-7.16387 -6.963,-2.27636 -14.66248,-2.27636 -13.792111,0 -21.692445,8.83766 -7.900334,8.83766 -7.900334,24.37052 0,15.46591 7.900334,24.30357 7.900334,8.83766 21.692445,8.83766 7.69948,0 14.66248,-2.27637 6.96301,-2.27636 14.12687,-7.16386 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#6c3d79;fill-opacity:1;stroke-width:3.4279418px"
+         id="path822" />
+    </g>
+  </g>
+</svg>
