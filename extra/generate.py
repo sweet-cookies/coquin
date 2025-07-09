@@ -43,6 +43,7 @@ CARDS_MAP = {
     "action": "coquin/src/game/cards/Action.vue",
     "soumis": "coquin/src/game/cards/Soumis.vue",
     "end": "coquin/src/game/cards/End.vue",
+    "gages": "coquin/src/game/cards/Gages.vue",
 }
 
 DECKS_MAP = {
@@ -193,6 +194,15 @@ class coquin(object):
                 cardid = "e%s" % _id
                 formated_card = {
                         "type": "end",
+                        "image": "/img/end.svg",
+                        "text": _text
+                    }
+
+            # gage
+            if cards_type == "gages":
+                cardid = "g%s" % _id
+                formated_card = {
+                        "type": "gages",
                         "image": "/img/end.svg",
                         "text": _text
                     }

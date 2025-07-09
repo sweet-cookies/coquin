@@ -21,6 +21,7 @@ import CardsQuestion from './cards/Question';
 import CardsAction from './cards/Action';
 import CardsSoumis from './cards/Soumis';
 import CardsEnd from './cards/End';
+import CardsGages from './cards/Gages';
 import CardsUndress from './cards/Undress';
 
 var SpecialCards = {
@@ -62,11 +63,11 @@ var SpecialCards = {
 }
 
 export default {
-    numberOfDuoPositions: 90, // from 0 to 89
-    numberOfDuoFFPositions: 15,
-    numberOfQuadPositions: 4,
-    numberOfTrioFFHPositions: 34,
-    numberOfTrioHHFPositions: 20,
+    numberOfDuoPositions: 196, // from 0 to 195
+    numberOfDuoFFPositions: 22,
+    numberOfQuadPositions: 5,
+    numberOfTrioFFHPositions: 33,
+    numberOfTrioHHFPositions: 22,
     _initPosCards: function() {
         window.console.log("--_initPosCards");
         for (const x of Array(this.numberOfDuoPositions).keys()) {
@@ -113,6 +114,9 @@ export default {
     },
     getEndCards: function() {
         return CardsEnd.getCards()
+    },
+    getGagesCards: function() {
+        return CardsGages.getCards()
     },
     getQuestionCards: function() {
         return CardsQuestion.getCards()

@@ -96,10 +96,12 @@ export default {
 
             var deckCards = []
             var total = this.totalCards
+            window.console.log("--formatCards "+this.deck.name)
             for (let [cardId, number] of Object.entries(this.deck.deckCards)) {
                 if (number <= 0) {
                     continue
                 }
+            //window.console.log("--formatCards "+cardId)
                 deckCards.push({
                     id: cardId,
                     type: this.cards[cardId].type,

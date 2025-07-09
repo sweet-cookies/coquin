@@ -30,6 +30,14 @@
                     <v-list-item-title>Configuration</v-list-item-title>
                 </v-list-item-content>
             </v-list-item>
+            <v-list-item link @click="persistent.currentPage = '/gages'">
+                <v-list-item-action>
+                    <v-icon>mdi-hanger</v-icon>
+                </v-list-item-action>
+                <v-list-item-content>
+                    <v-list-item-title>Gages</v-list-item-title>
+                </v-list-item-content>
+            </v-list-item>
             <v-list-item link @click="persistent.currentPage = '/decks'">
                 <v-list-item-action>
                     <v-icon>mdi-view-module</v-icon>
@@ -201,6 +209,13 @@
         </v-container>
     </v-content>
 
+    <!-- Gages content -->
+    <v-content v-if="persistent.currentPage == '/gages'">
+        <v-container fluid>
+            <Gages :cards="gagesCards" />
+        </v-container>
+    </v-content>
+
     <!-- DecksList content -->
     <v-content v-if="persistent.currentPage == '/decks'">
         <v-container fluid>
@@ -266,6 +281,7 @@ import Timer from './components/Timer';
 import Hand from './components/Hand';
 import Rules from './game/Rules';
 import Cards from './game/Cards';
+import Gages from './game/Gages';
 import GameDecks from './game/Decks';
 import DecksList from './components/DecksList';
 import CardsList from './components/CardsList';
@@ -297,6 +313,7 @@ export default {
         Timer,
         Hand,
         Rules,
+        Gages,
         DecksList,
         CardsList,
         Settings,
@@ -340,6 +357,7 @@ export default {
     data: () => ({
         cards: Cards.getCards(),
         endCards: Cards.getEndCards(),
+        gagesCards: Cards.getGagesCards(),
         questionCards: Cards.getQuestionCards(),
         decks: GameDecks.getDecks(),
         persistentDecks: GameDecks.getDecks(),
@@ -358,6 +376,9 @@ export default {
             },
             '/rules': {
                 'name': "Règles du jeu"
+            },
+            '/gages': {
+                'name': "Gages"
             },
             '/decks': {
                 'name': "Liste des decks"

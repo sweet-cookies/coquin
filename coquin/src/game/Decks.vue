@@ -35,7 +35,7 @@ var decksPositions = {
         'deckCardsTemplate': [{
             'prefix': 'p_duo',
             'start': 0,
-            'stop': 89
+            'stop': 195
         }],
     },
     'positions_3_plus': {
@@ -82,19 +82,19 @@ var decksPositions = {
         'deckCardsTemplate': [{
             'prefix': 'p_duo_ff',
             'start': 0,
-            'stop': 14
+            'stop': 21
         }, {
             'prefix': 'p_quad',
             'start': 0,
-            'stop': 3
+            'stop': 4
         }, {
             'prefix': 'p_trio_ffh',
             'start': 0,
-            'stop': 33
+            'stop': 32
         }, {
             'prefix': 'p_trio_hhf',
             'start': 0,
-            'stop': 19
+            'stop': 21
         }],
     },
     'positions_3_plus_only': {
@@ -141,19 +141,19 @@ var decksPositions = {
         'deckCardsTemplate': [{
             'prefix': 'p_duo_ff',
             'start': 0,
-            'stop': 14
+            'stop': 21
         }, {
             'prefix': 'p_quad',
             'start': 0,
-            'stop': 3
+            'stop': 4
         }, {
             'prefix': 'p_trio_ffh',
             'start': 0,
-            'stop': 33
+            'stop': 32
         }, {
             'prefix': 'p_trio_hhf',
             'start': 0,
-            'stop': 19
+            'stop': 21
         }],
     },
     'positions_3_plus_only_fhh': {
@@ -176,7 +176,7 @@ var decksPositions = {
         'deckCardsTemplate': [{
             'prefix': 'p_trio_hhf',
             'start': 0,
-            'stop': 19
+            'stop': 21
         }],
     },
 }

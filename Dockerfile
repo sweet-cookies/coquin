@@ -1,4 +1,4 @@
-FROM node:13-alpine as coquin-build
+FROM node:14-alpine AS coquin-build
 COPY coquin /coquin/
 WORKDIR /coquin
 RUN npm install --no-progress
